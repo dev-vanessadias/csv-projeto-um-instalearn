@@ -1,0 +1,23 @@
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+imagemlogo {
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+}
+
+textologo {
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+}
+
