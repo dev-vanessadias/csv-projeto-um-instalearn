@@ -1,9 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 header {
     align-items: flex-start;
-    border: 1px solid blue;
     background-color: none;
     padding: 0px;
     margin: 0px;
+
 }
 
 #imagemLogo {
@@ -12,6 +17,7 @@ header {
     width: auto;
     height: auto;
     margin: 0px;
+    margin-left: 70px;
 }
 
 #textoLogo {
@@ -22,6 +28,7 @@ header {
     margin: 0px;
     align-items: baseline ;
     padding-bottom: 20px;
+    margin-left: 10px;
 }
 
 #fotoDePerfilCabecalho {
@@ -29,7 +36,7 @@ header {
     max-height: 40px;
     width: auto;
     height: auto;
-    border-radius: 80%;
+    border-radius: 100%;
     border-image: fill;
     margin-right: 30px;
     margin-left: 10px;
@@ -44,20 +51,59 @@ body {
     background-position: center center;
     background-size: 100%;
     background-color:blanchedalmond;
-    border: 1px solid red;
     padding: 20px;
     padding-bottom: 200px;
+    box-sizing: 0;
+}
+
+.container {
+    border-style: inset;
+    border-radius: 2%;
+    margin-top: 50px;   
+    margin-left: 370px; 
+    margin-right: 50%;
+    display: inline-block;
+    width: 420px;
+    margin: 2 auto;
+    padding: 0;
+}
+
+.container h5 {
+    margin-top: 10px;
 }
 
 .usuario {
     display: inline-flex;
-    justify-content: space-between;
-    margin-top: 20px;  
-    margin-right: 50px;      
+    margin-top: 5px;  
+    margin-right: 50px;
+    margin-left: 20px;    
+    margin-bottom: 0px;  
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.publicacao {
+    margin-top: 5px;
+    margin-bottom: 1px;
+    padding: 0;
+    text-align: center;
+}
+
+.reacoes p {
+    margin: 20px;
+    padding: 0;
+    text-align: left;
+}
+
+#fotoDoPost {    
+    width: 100%;    
+    margin: 0;
+    padding: 0;
 }
 
 h4 {
     margin-top: 10px;
+    margin-bottom: 1px;
 }
 
 #fotoDePerfil {
@@ -65,21 +111,31 @@ h4 {
     max-height: 40px;
     width: auto;
     height: auto;
-    border-radius: 80%;
+    border-radius: 100%;
     border-image: fill;
     margin-right: 10px;
+    margin-bottom: 1px;
+    margin-top: 1px;
 }
 
 .reacoes {
-    border: 1px solid green;
+    margin: 3px;
 }
 
-#coracaoLikeClaro,
+#coracaoLikeClaro{
+    width: 28px;
+    margin-left: 5px;
+    margin-right: 3px;
+    margin-top: none;  
+}
+
 #coracaoLikeEscuro,
 #comentar,
 #compartilhar {
-    width: 30px;
-    margin: 10px 10px;
+    width: 20px;
+    margin-bottom: 5px;
+    margin-right: 8px;
+    margin-top: 5px; 
 }
 
 #coracao1,
@@ -95,3 +151,4 @@ h4 {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
