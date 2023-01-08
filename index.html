@@ -8,21 +8,35 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <header class="cabecalho">
-    <img  id="imagemlogo" src="./img/instalearnlogo.PNG" alt="imagem do logo" width="150">
-    <img  id="textologo" src="./img/instalearntexto.PNG" alt="texto do logo">
+    <img  id="imagemLogo" src="./img/imagemlogo.png" alt="imagem do logo">
+    <img  id="textoLogo" src="./img/letraslogo.png" alt="texto do logo">
+    <img id="fotoDePerfilCabecalho" src="./img/fotodeperfil.jpeg" alt="foto de perfil do usuário">   
+    <img  id="coracao1" src="./img/coracao1.png" alt="vetor coração">
+    <img  id="explorar" src="./img/explorer.svg" alt="vetor explorar">
+    <img  id="adicionar" src="./img/add.svg" alt="vetor adicionar">
+    <img  id="chat" src="./img/message.svg" alt="vetor chat">
+    <img  id="home" src="./img/home.svg" alt="vetor home">
 </header>
-<body>
-    <img id="fotodeperfil" src="./img/fotodeperfil.jpeg" alt="foto de perfil do usuário" width="100">
-    <h3>Vanessa Dias</h3>
+<body class="body-container">
+
     <form class="container">
-        <p>
-            <h3>Criar Post</h3>
-            <label for="arquivo">Upload de fotos</label>
-            <input type="file" name="arquivo" id="arquivo" accept="image/*">
-            <input type="submit" name="enviar" value="Enviar"/>
-            <input type="text" name="legenda" id="legenda">
-            <img id="coracaolike" src="./img/coracaoclaro.png" alt="coração de curtida" width="30">
-        </p>
+        <div class="usuario">
+            <img id="fotoDePerfil" src="./img/fotodeperfil.jpeg" alt="foto de perfil do usuário">
+            <h4>Vanessa Dias</h4>
+        </div>    
+        <div class="publicacao">
+            <h5>Nova publicação</h5><br>
+            <input type="file" name="arquivo" id="arquivo" accept="image/*"><br>
+            <input type="submit" name="enviar" value="Enviar"/><br>
+            <textarea></textarea><br>
+        </div>
+        <input type="submit" value="Comentar">
+        <div class="reacoes">            
+            <img id="coracaoLikeClaro" src="./img/coracaoclaro.png" alt="coração claro">
+            <img id="coracaoLikeEscuro" src="./img/coracaoescuro.png" alt="coração escuro">
+            <img id="comentar" src="./img/comentar.png" alt="comentar">
+            <img id="compartilhar" src="./img/compartilhar.png" alt="compartilhar">
+        </div>
     </form>    
 </body>
 </html>

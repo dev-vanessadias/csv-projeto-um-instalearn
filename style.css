@@ -1,23 +1,97 @@
 header {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    padding: 30px;
+    align-items: flex-start;
+    border: 1px solid blue;
+    background-color: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#imagemLogo {
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+    margin: 0px;
+}
+
+#textoLogo {
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    margin: 0px;
+    align-items: baseline ;
+    padding-bottom: 20px;
+}
+
+#fotoDePerfilCabecalho {
+    max-width: 40px;
+    max-height: 40px;
+    width: auto;
+    height: auto;
+    border-radius: 80%;
+    border-image: fill;
+    margin-right: 30px;
+    margin-left: 10px;
+    margin-top: 20px;
+    float: right;
+}
+
+body {
+    background: url(./img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: 100%;
+    background-color:blanchedalmond;
+    border: 1px solid red;
+    padding: 20px;
+    padding-bottom: 200px;
+}
+
+.usuario {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 20px;  
+    margin-right: 50px;      
+}
+
+h4 {
     margin-top: 10px;
-    margin-bottom: 10px;
 }
 
-imagemlogo {
-    max-width: 200px;
-    max-height: 150px;
+#fotoDePerfil {
+    max-width: 40px;
+    max-height: 40px;
     width: auto;
     height: auto;
+    border-radius: 80%;
+    border-image: fill;
+    margin-right: 10px;
 }
 
-textologo {
-    max-width: 200px;
-    max-height: 150px;
-    width: auto;
-    height: auto;
+.reacoes {
+    border: 1px solid green;
 }
 
+#coracaoLikeClaro,
+#coracaoLikeEscuro,
+#comentar,
+#compartilhar {
+    width: 30px;
+    margin: 10px 10px;
+}
+
+#coracao1,
+#adicionar,
+#explorar,
+#chat,
+#home {
+    width: 30px;
+    float: right;
+    justify-content: space-between;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
